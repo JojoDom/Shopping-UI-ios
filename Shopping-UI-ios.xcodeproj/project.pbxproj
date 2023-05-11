@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EBCD3F62A0CF2F8008EE7D5 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCD3F52A0CF2F8008EE7D5 /* Home.swift */; };
+		3EBCD3F82A0CF308008EE7D5 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCD3F72A0CF308008EE7D5 /* Favorites.swift */; };
+		3EBCD3FA2A0CF317008EE7D5 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCD3F92A0CF317008EE7D5 /* Cart.swift */; };
+		3EBCD3FE2A0CF34D008EE7D5 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCD3FD2A0CF34D008EE7D5 /* Search.swift */; };
+		3EBCD4002A0CF368008EE7D5 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBCD3FF2A0CF368008EE7D5 /* Profile.swift */; };
 		3EFCAA0529EC23360071D9AC /* Shopping_UI_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCAA0429EC23360071D9AC /* Shopping_UI_iosApp.swift */; };
 		3EFCAA0729EC23360071D9AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCAA0629EC23360071D9AC /* ContentView.swift */; };
 		3EFCAA0929EC23360071D9AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCAA0829EC23360071D9AC /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EBCD3F52A0CF2F8008EE7D5 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3EBCD3F72A0CF308008EE7D5 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		3EBCD3F92A0CF317008EE7D5 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		3EBCD3FD2A0CF34D008EE7D5 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		3EBCD3FF2A0CF368008EE7D5 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		3EFCAA0129EC23360071D9AC /* Shopping-UI-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shopping-UI-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFCAA0429EC23360071D9AC /* Shopping_UI_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping_UI_iosApp.swift; sourceTree = "<group>"; };
 		3EFCAA0629EC23360071D9AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EBCD3F42A0CF2B6008EE7D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EBCD3F52A0CF2F8008EE7D5 /* Home.swift */,
+				3EBCD3F72A0CF308008EE7D5 /* Favorites.swift */,
+				3EBCD3F92A0CF317008EE7D5 /* Cart.swift */,
+				3EBCD3FD2A0CF34D008EE7D5 /* Search.swift */,
+				3EBCD3FF2A0CF368008EE7D5 /* Profile.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3EFCA9F829EC23360071D9AC = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +73,7 @@
 		3EFCAA0329EC23360071D9AC /* Shopping-UI-ios */ = {
 			isa = PBXGroup;
 			children = (
+				3EBCD3F42A0CF2B6008EE7D5 /* Views */,
 				3EFCAA0429EC23360071D9AC /* Shopping_UI_iosApp.swift */,
 				3EFCAA0629EC23360071D9AC /* ContentView.swift */,
 				3EFCAA0829EC23360071D9AC /* Assets.xcassets */,
@@ -138,6 +161,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EFCAA0729EC23360071D9AC /* ContentView.swift in Sources */,
+				3EBCD3F82A0CF308008EE7D5 /* Favorites.swift in Sources */,
+				3EBCD3FA2A0CF317008EE7D5 /* Cart.swift in Sources */,
+				3EBCD4002A0CF368008EE7D5 /* Profile.swift in Sources */,
+				3EBCD3FE2A0CF34D008EE7D5 /* Search.swift in Sources */,
+				3EBCD3F62A0CF2F8008EE7D5 /* Home.swift in Sources */,
 				3EFCAA0529EC23360071D9AC /* Shopping_UI_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
